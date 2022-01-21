@@ -46,3 +46,14 @@ nav ul li a{
 nav ul li a:hover{
     color: darkcyan;
 }
+.parallax {
+
+    background-image: url("DSCF5588.jpeg");
+
+   /* min-height: 500px;*/ 
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
