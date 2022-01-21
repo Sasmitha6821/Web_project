@@ -50,10 +50,10 @@ nav ul li a:hover{
 
     background-image: url("DSCF5588.jpeg");
 
-   /* min-height: 500px;*/ 
-
+    min-height: 500px;
+    background-size: 100%;
     background-attachment: fixed;
-    background-position: center;
+    
     background-repeat: no-repeat;
-    background-size: cover;
+
   }
