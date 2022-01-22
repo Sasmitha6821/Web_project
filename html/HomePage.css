@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+}
 
 .parallax {
 
@@ -25,6 +26,7 @@
   
    .jumbotron {
     margin-bottom: 0;
+    background-image: url("https://cdn.pixabay.com/photo/2018/10/18/18/43/portrait-3757153_960_720.jpg");
   }
 
   footer {
