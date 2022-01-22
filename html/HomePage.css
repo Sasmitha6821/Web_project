@@ -29,6 +29,16 @@
     background-image: url("https://cdn.pixabay.com/photo/2018/10/18/18/43/portrait-3757153_960_720.jpg");
   }
 
+  .jumbotron2 {
+    margin-bottom: 0;
+    background-image: url("https://cdn.pixabay.com/photo/2019/06/10/11/27/awareness-4264012_960_720.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+  }
+
   footer {
     background-color: #f2f2f2;
     padding: 25px;
