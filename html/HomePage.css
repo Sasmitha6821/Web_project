@@ -54,3 +54,24 @@
     float: right;
     padding: 20px;
   }
+
+  .logbox{
+    padding: 10%;
+    opacity: 0.5;
+  }
+
+  .logbutton{
+    border: rgb(230, 224, 224) solid 1px;
+  }
+
+  .btn-log {
+    color: #fff;
+    background-color: #110e0e1e;
+    border-color: #ffffff;
+  }
+  .btn-log:hover {
+    color: #fff;
+    background-color: #6b6263;
+    border-color: #ffffff;
+  }
+
