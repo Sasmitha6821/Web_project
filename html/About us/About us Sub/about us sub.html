@@ -1,0 +1,146 @@
+<html>
+    <head>
+        <title>
+            about us sub
+        </title>
+        <style>
+            html{
+                box-sizing: border-box;
+                
+            }
+            *,*::before,*::after{
+                box-sizing: inherit;
+            }
+            .column{
+                float: left;
+                width: 33.3%;
+                /* I used 33.3 percent so it will divivide the 3 boxes equallaly 100/3 */
+                margin-bottom: 16px;
+                padding: 0 8px;
+            }
+            @media screen and (max-width: 650px) 
+            {
+                .column{
+                    width: 100%;
+                    display: block;
+                }
+            }
+            .photo{
+                box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+                /* used RGBA alpha color as 0.2 */
+               
+            }
+            .container{
+                padding: 0 16px;
+            }
+            .container::after,.row::after{
+                content: "";
+                clear: both;
+                display: table;
+            }
+            .sub{
+                color: grey;
+            }
+            .button{
+                border: none;
+                outline: 0;
+                display: inline-block;
+                padding: 8px;
+                color: white;
+                background-color: #000;
+                text-align: center;
+                cursor: pointer;
+                width: 100%;
+            }
+            .button:hover{
+                background-color: #555;
+            }
+            p{
+                font-family: 'Teko', sans-serif;
+                font-family: 'Ubuntu', sans-serif;
+            }
+            h1{
+                font-family: 'Bebas Neue', cursive;
+                font-family: 'Lobster', cursive;
+                font-family: 'Teko', sans-serif;
+                font-family: 'Ubuntu', sans-serif;
+            }
+            h1:hover{
+                color: steelblue;
+            }
+           
+
+          
+            
+
+           
+        </style>
+</head>
+<body>
+    <div class="upper">
+    <div style="background-image: url(1109072.jpeg); background-repeat: no-repeat; background-size: cover;">
+    <h1 style="text-align: center;">What is Fund and Raise SL</h1>
+    <p style="text-align:center;">Fund and Raise SL is a non-profit organization that works with and for the rights of children and families. It was founded in 1999. SERVE promotes the development of analytical ability of children, families, and communities in 10 Sri Lankan districts to analyze the condition of child rights. Our social workers, with the aid of our partners, start and promote women's and children's empowerment, as well as assisting families in achieving their own socioeconomic goals. With passion, love, and care, we seek to empower individuals. </p>
+    </div>
+    <table style="padding-left: 50px">
+        <tr>
+            <td>
+                <div class="row">
+                    <div class="column" style="width: 425px;">
+                        <div class="photo">
+                            <div class="img">
+                            <img src="colombo-market-street-photography.jpeg" width="100%">
+                        </div>
+                            <div class="container">
+                                <h2>Vision</h2>
+                                <p class="sub">Our Vission is to </p>
+                                <p>Contribute to a society that promotes and ensures the equality, dignity, and humanity of all individuals, particularly children and women, so that they can fulfill their full potential.</p>
+                                <p> <a href="https://www.oxfam.org/en/what-we-do/issues"><button class="button">View More</button></a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="row">
+                    <div class="column" style="width: 425px;">
+                        <div class="photo">
+                            <img src="Oxfam_logo.jpeg" width="100%">
+                            <div class="container">
+                                <h2>Partnership</h2>
+                                <p class="sub">Partnership with OXFAM </p>
+                                <p>Sri Lanka reached a post-war stage in May 2009, with the end of a nearly 30-year civil conflict, earning lower middle-income status. This has created a window of opportunity for achieving a just and lasting peace, as well as a development process that may help residents overcome poverty and injustice.</p>
+                                <p><a href="https://www.oxfam.org/en/what-we-do/countries/sri-lanka"><button class="button" >View More</button></a></p>
+                              
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="row">
+                    <div class="column" style="width: 425px;">
+                        <div class="photo">
+                            <img src="volunteers-3.960x537.jpg" width="100%">
+                            <div class="container">
+                                <h2>Mission</h2>
+                                <p class="sub">Our Mission is to </p>
+                                <p>Through a high-quality, inclusive, creative, sustainable, and scientific approach, people, particularly children and women, will be empowered.</p>
+                                <br><br>
+                                <p><a href="https://www.oxfam.org/en/what-we-do/about/what-we-believe"> <button class="button">View More</button></a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+</div>
+   
+    <iframe width="100%" height="720" src="https://www.youtube.com/embed/3B5RYotkl9w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    
+   
+    
+</body>
+</html>
