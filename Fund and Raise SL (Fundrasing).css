@@ -1,0 +1,22 @@
+h1,h4{
+	text-align: center;
+}
+p{
+	text-align: center;
+	margin-top: 90px;
+	font-family: sans-serif;
+	font-style: italic;
+}
+#Fundrasing{
+	width: 250px;
+	height: 150px;
+	background-color: gray;
+	margin: auto;
+	margin-top: 10px;
+}
+#Details{
+	padding: 40px 20px 10px 40px;
+}
+#Create{
+	padding-left: 40px;
+}
