@@ -66,7 +66,7 @@
     margin-right: 20px;
 }
 .button button:hover{
-    background-color: #1d44f9;
+    background-color:rgb(156,118,228);
     color: white;
     transition: .3s;
     cursor: pointer;
