@@ -112,6 +112,10 @@
   
   }
 
+  .videoclip{
+    width: 100%;
+  }
+
   .whitearea{
     width: 100%;
     position: relative;
