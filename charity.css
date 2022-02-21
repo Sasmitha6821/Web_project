@@ -81,5 +81,14 @@
                 margin: 35px;
 
               }
-
+             .input-field {
+                width: 400px;
+                height: 400px;
+                margin-top: 20px;
+                padding-left: 10px;
+                padding-right: 10px;
+                border: 1px solid #777;
+                border-radius: 14px;
+                outline: none;
+              }
               
