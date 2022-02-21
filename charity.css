@@ -1,4 +1,10 @@
-
+ form {
+        width: 600px;
+        margin: 100px auto 0 auto;
+        padding: 20px;
+        box-shadow: 0 4px 8px #30475e, 0 4px 8px #30475e;
+        background-color: #D3C3BE;
+      }
 
       p {
           font-size: 20px;
