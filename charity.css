@@ -1,4 +1,8 @@
- form {
+body{
+        background: rgb(156, 118, 228); 
+}
+
+form {
         width: 600px;
         margin: 100px auto 0 auto;
         padding: 20px;
