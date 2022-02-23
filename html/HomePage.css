@@ -63,7 +63,6 @@
   .onewave{
     position: absolute;
     bottom: 0px;
-    border: #971919 solid 3px;
     width: 100%;
     height: auto;
   }
@@ -82,7 +81,6 @@
 
   @media only screen and (max-width: 600px) {
     .twopara{
-      border: #fffafa solid 2px;
       right: 10px;
       left: 10px;
       top: 20px;
@@ -106,7 +104,6 @@
   .commenttag{
     position: absolute;
     top: 50px;
-    border: #b31212 3px solid;
     display: block;
     left: 5%;
     right: 5%;
@@ -117,7 +114,6 @@
     .comment{
       position: relative;
     background-color: #1a1818;
-    border: #e5ff00;
     width: 100%;
     height: 900px;
     display: block;
@@ -141,12 +137,12 @@
     width: 100%;
     position: relative;
     height: 300px;
-    border: #0e6bc7;
+    
   }
 
   .introtext{
     position: absolute;
-    border: #45a049 3px solid;
+    
     top: 30px;
     right: 60px;
     width: 500px;
@@ -155,7 +151,7 @@
 
   .introvideo{
     position: absolute;
-    border: #45a049 3px solid;
+    
     top: 30px;
     left: 80px;
     width: 560px;
@@ -181,7 +177,7 @@
 }
 
   .wavetop{
-    border: #f00a0a 2px solid;
+    
     position: absolute;
     height: 20px;
     width: 100px;
@@ -191,7 +187,7 @@
 
  
   .wavebottom{
-    border: #ffee00 2px solid;
+    
     position: absolute;
     height: 300px;
     width: 100%;
@@ -223,7 +219,6 @@
     width: 100%;
     height: 200px;
     position: absolute;
-    border: #1a1818 2px solid;
   }
 
 
@@ -288,7 +283,7 @@
 
   @media only screen and (max-width: 600px) {
     .textbox{
-      border: solid white 2px;
+      
       position: absolute;
       right: 0;
       width: auto;
