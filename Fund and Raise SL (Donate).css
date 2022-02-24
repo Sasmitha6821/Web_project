@@ -10,14 +10,18 @@ body{
 	justify-content: center;
 	align-items: center;
 	padding: 10px;
-	background: rgb(156, 118, 228);
+	background-image: linear-gradient(rgba(86, 44, 102, 0.5),rgba(51, 74, 173, 0.616)), url("https://cdn.pixabay.com/photo/2018/06/03/20/55/sicily-3451529_960_720.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .container{
 	max-width: 700px;
 	width: 100%;
-	background: #fff;
+	background: rgba(204, 204, 204, 0.788);
 	padding: 25px 30px;
 	border-radius: 5px;
+	box-shadow: rgb(12, 11, 11);
 }
 .container .title{
 	font-size: 25px;
