@@ -1,0 +1,134 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+section
+{
+    width: 100%;
+    height: 100%;
+    background-image: url("Bg4.png");
+    background-size: cover;
+}
+section .leftbox
+{
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding: 50px;
+    box-sizing: border-box;
+} 
+section .linkBtn
+{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    padding: 15px 30px;
+    background-color: red;
+    text-decoration: none;
+}
+a
+{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+section .linkBtn:hover
+{
+    background-color:  rgba(255, 0, 0, 0.63);
+    transition: 0.7s;
+}
+h1.heading
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: black;
+    background-color: #684e92;;
+    padding: 20px;
+}
+p.intro
+{
+    font-size: larger;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.493);
+    padding: 40px;
+}
+p.intro:hover
+{
+    background-color: rgb(0, 0, 0);
+    transition: 0.7s;
+}
+section .events
+{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background: rgba(104, 86, 140, 0.493);
+    float: right;
+    box-sizing: border-box;
+}
+section .events ul
+{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+    padding: 40px;
+    box-sizing: border-box;
+}
+section .events ul li
+{
+    list-style: none;
+    background: white;
+    box-sizing: border-box;
+    height: 200px;
+}
+section .events ul li .time
+{
+    position: relative;
+    padding: 20px;
+    background: grey;
+    box-sizing: border-box;
+    width: 30%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    transition: .5s;
+}
+section .events ul li:hover .time
+{
+    transform: scale(1.05);
+    background: rgb(240, 252, 130);
+}
+h2
+{
+   position: absolute;
+   top: 30%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   font-size: 50px; 
+}
+h2 span
+{
+    font-size: 25px;
+}
+section .events ul li .details
+{
+    padding: 20px;
+    background: white;
+    box-sizing: border-box;
+    width: 70%;
+    height: 100%;
+    float: left;
+}
+section .events ul li .details p
+{
+    position: relative;
+    margin: 10px 0 0;
+    font-size: 15px;
+}
+h3
+{
+    color: #684e92;
+}
