@@ -1,0 +1,23 @@
+<?php
+	$name = $_POST['name'];
+	$title = $_POST['title'];
+	$discrip = $_POST['discrip'];
+	$email = $_POST['email'];
+	$tel = $_POST['tel'];
+	$amount = $_POST['amount'];
+
+
+	$conn = new mysqli('localhost','root','','fund');
+	if($conn->connect_error){
+		echo "$conn->connect_error";
+		die("Connection Failed : ". $conn->connect_error);
+	} else {
+		$stmt = $conn->prepare("insert into registration(name, title, discrip, email, title, amount) values(?, ?, ?, ?, ?, ?)");
+		$stmt->bind_param("sssssi", $name, $title, $discrip, $email, $title, $amount);
+		$execval = $stmt->execute();
+		echo $execval;
+		echo "Registration successfully...";
+		$stmt->close();
+		$conn->close();
+	}
+?>

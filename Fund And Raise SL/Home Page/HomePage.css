@@ -63,7 +63,7 @@
   .onewave{
     position: absolute;
     bottom: 0px;
-    border: #971919 solid 3px;
+    
     width: 100%;
     height: auto;
   }
@@ -106,7 +106,6 @@
   .commenttag{
     position: absolute;
     top: 50px;
-    border: #b31212 3px solid;
     display: block;
     left: 5%;
     right: 5%;
@@ -181,7 +180,6 @@
 }
 
   .wavetop{
-    border: #f00a0a 2px solid;
     position: absolute;
     height: 20px;
     width: 100px;
@@ -432,7 +430,7 @@
     position: sticky;
     top: 0;
   }
-/*--------------------------------------------------------------------------------------------*/
+
 * {
   box-sizing: border-box;
 }
